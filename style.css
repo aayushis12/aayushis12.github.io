@@ -1,11 +1,11 @@
 
 body {
-  background-color: rgba(32,32,47,1) !important;
+  background:rgba(2,41,87,1) !important;/* rgba(32,32,47,1) !important;*/
   overflow-x: hidden;
 }
 
 .header {
-  background-color: rgba(32,32,47,0.1) !important;
+  background-color: rgba(32,32,47,0.6) !important;
   position: fixed !important;
   top: 0;
   left: 0;
@@ -20,13 +20,22 @@ body {
 
 .project-container{
   background-color: white;
-  /*margin-left: 5.8em;*/
+  /*margin-left: 5.8em;*/ 
 }
 
 /*.abc{
   background-color: red;
 }
 */
+
+.titles{
+  color: rgb(199,86,127);
+}
+
+.highlights{
+  color: rgb(120,133,199);
+}
+
 .navbar-right{
   float: right;
 }
@@ -38,14 +47,18 @@ body {
   text-align: center;
 }
 
+.header-list:hover{
+  color:red !important;
+}
+
 .project-bg-img {
-  background-image: url(images/Projects.jpg);
+  background-image: url(images/bgimg.jpg);
   width: 100%;
   min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .aayushi-intro {
   position: relative;
@@ -65,7 +78,7 @@ body {
   margin-top: 0.3em;
   margin-bottom: 0.5em;
   text-align: center;
-  color: red;
+  color: white;
   font-family: Bitter;
   font-size: 1.8em;
 }
@@ -95,6 +108,7 @@ body {
 
 .about-me-para p{
   font-family: Bitter;
+
 }
 
 @keyframes slideinleft{
@@ -116,12 +130,13 @@ body {
   margin:1% 1%;
   /*margin: 0 auto;*/
   padding: 2%;
-  background-color: white;
-  animation: slideinleft 3s forwards;
+  background-color: rgba(255,255,255,0.9);
+  animation: slideinleft 5s forwards;
   border-radius: 0px 40px 40px 0px;
   font-family: Bitter;
 }
 .projects-list {
+  
 }
 ul {
   text-decoration: none;
@@ -163,6 +178,7 @@ ul {
 .skill-wrapper .skills-para .skill-block .skill-circle .skill-text {
   justify-content: center;
   color: #ffffff;
+  font-family: Bitter;
 }
 
 .skill-wrapper .skills-para .skill-block:hover .skill-circle .skill-text{
@@ -289,7 +305,6 @@ footer {
 }
 .find-me {
   font-size: 2em;
-  color: red;
   font-family: Rockkitt;
   font-style: bold;
   text-align: center;
