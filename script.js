@@ -19,7 +19,7 @@
     var list=document.getElementsByClassName('list');
     Array.from(list).forEach(element=>{
       var color = '#' + Math.floor(Math.random() * 16777215).toString(16);
-      element.style.border='0.1em solid'+color;
+      element.style.border='0.2em solid'+color;
     })
   })
 
