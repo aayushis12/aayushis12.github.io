@@ -273,10 +273,13 @@ footer {
 .find-me-icons {
   color: white !important;
 }
+.fa-medium{
+  background-color: black;
+}
 .fa-linkedin,
 .fa-codepen,
 .fa-stack-overflow,
-.fa-github {
+.fa-github,.fa-medium {
   font-size: 30px !important;
   border-radius: 2px;
   padding: 15px 8px 8px;
@@ -301,6 +304,10 @@ footer {
 .fa-stack-overflow:hover{
   color: lightgray;
   background-color: orange;
+}
+.fa-medium:hover{
+  color: black;
+  background-color: white;
 }
 .find-me {
   font-size: 2em;
