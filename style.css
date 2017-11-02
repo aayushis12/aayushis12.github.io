@@ -159,7 +159,7 @@ ul {
   margin: 10px;
   position: relative;
   border-radius: 50%;
-  border: 2px solid greenyellow;
+  border: 2px solid white;
   box-sizing: border-box;
   display: inline-block;
 }
@@ -175,7 +175,7 @@ ul {
   top: 8px;
   right: 8px;
   border-radius: 50%;
-  border: 2px solid greenyellow;
+  border: 2px solid white;
   text-align: center;
 }
 
