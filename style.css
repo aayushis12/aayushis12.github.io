@@ -41,8 +41,9 @@ body {
 }
 .header-list {
   color: white !important;
-  font-family: Bitter;
+  font-family: Nunito;
   font-weight: bold;
+  font-size:1.2em;  
   padding: 0.2em 0.2em;
   text-align: center;
 }
@@ -58,7 +59,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .aayushi-intro {
   position: relative;
@@ -66,12 +67,12 @@ body {
   top: -60%;
   color: white;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.5em;
 
 }
 
 .aayushi-intro div{
-  font-family: Bitter;
+  font-family: Nunito;
 }
 
 .every-title {
@@ -79,7 +80,8 @@ body {
   margin-bottom: 0.5em;
   text-align: center;
   color: white;
-  font-family: Bitter;
+  font-family: Nunito;
+  font-weight: bold;
   font-size: 1.8em;
 }
 .profile-pic {
@@ -104,10 +106,11 @@ body {
   margin: 0 auto;
   background-color: white;
   border-radius: 2%;
+  font-size: 1.2em;
 }
 
 .about-me-para p{
-  font-family: Bitter;
+  font-family: Nunito;
 
 }
 
@@ -133,7 +136,8 @@ body {
   background-color: rgba(255,255,255,0.9);
   animation: slideinleft 5s forwards;
   border-radius: 0px 40px 40px 0px;
-  font-family: Bitter;
+  font-family: Nunito;
+  font-size: 1.2em;
 }
 .projects-list {
   
@@ -178,7 +182,7 @@ ul {
 .skill-wrapper .skills-para .skill-block .skill-circle .skill-text {
   justify-content: center;
   color: #ffffff;
-  font-family: Bitter;
+  font-family: Nunito;
 }
 
 .skill-wrapper .skills-para .skill-block:hover .skill-circle .skill-text{
@@ -311,7 +315,7 @@ footer {
 }
 .find-me {
   font-size: 2em;
-  font-family: Rockkitt;
+  font-family: Bitter;
   font-style: bold;
   text-align: center;
 }
