@@ -30,10 +30,12 @@ body {
 
 .titles{
   color: rgb(199,86,127);
+  font-weight: bold;
 }
 
 .highlights{
   color: rgb(120,133,199);
+  font-weight: bold;
 }
 
 .navbar-right{
@@ -326,3 +328,37 @@ footer {
 /*.stackoverflow{
   color: orange !important;
 }*/
+.middle{
+  justify-content: center;
+}
+
+.line{
+  border: 6px solid white;
+  height: auto;
+  z-index: 10;
+  margin-top:1.2em;
+  margin-left: 0.9em; 
+}
+
+.list2{
+  width:95%;
+  padding: 1em;
+  border:2px solid white;
+  margin: 1em;
+  background-color: rgba(0,0,0,0.2);
+  font-family: Nunito;
+  font-size: 1.2em;
+}
+
+.zoomin{
+  animation:zoomin 4s;
+}
+
+@keyframes zoomin{
+  0%{
+    transform:scale(1.2);
+  }
+  100%{
+    transform: scale(1.0);
+  } 
+}

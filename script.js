@@ -10,8 +10,11 @@
     }
     var addBackground=$("#about").offset().top;
     if(scrollTop>=addBackground){
-      //console.log("hey");
-      //$('.navbar').style.border='0.1em solid white';
+        $('.middle').addClass('zoomin');
+        $('footer').show();
+    }else{
+      $('footer').hide();
+      $('.middle').removeClass('zoomin');
     }
   })
   
@@ -21,11 +24,20 @@
       var color = '#' + Math.floor(Math.random() * 16777215).toString(16);
       element.style.border='0.2xem solid'+color;
     })
+    //var targetScrollTop=$window.scrollTop();
+   // $('#projects').append("<div class='line'></div>");
+   /*var addanimation=$("#about").offset().top;
+   if (scrollTop>=addanimation) {
+    $('#projects').addClass('zoomin');
+   }*/
   })
 
+  $('footer').hide();
 
 })(jQuery);
-
+   function showanimation(){
+    $('.middle').addClass('zoomin');
+   }
 
 function goto(id){
    $('html, body').animate({
