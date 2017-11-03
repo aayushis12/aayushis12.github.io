@@ -256,6 +256,7 @@ footer {
   background-color: white;
   left: 0;
   right: 0;
+  height:2.4em;
 }
 
 .find-me-wrapper {
@@ -351,7 +352,7 @@ footer {
 }
 
 .zoomin{
-  animation:zoomin 4s;
+  animation:zoomin 4s;  
 }
 
 @keyframes zoomin{
